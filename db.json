@@ -1,0 +1,212 @@
+{
+  "burgers": [
+    {
+      "id": 1,
+      "snack": "burger",
+      "name": "Mega",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+      "price": 35.5,
+      "image": "https://i.imgur.com/upjIUnG.jpg"
+    },
+    {
+      "id": 2,
+      "snack": "burger",
+      "name": "X-Salada",
+      "description": "Alface, Tomate, Milho... ",
+      "price": 28.5,
+      "image": "https://i.imgur.com/IgknRkA.jpeg"
+    },
+    {
+      "id": 3,
+      "snack": "burger",
+      "name": "X-Tudo",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+      "price": 40.5,
+      "image": "https://i.imgur.com/YZBB5R0.jpeg"
+    },
+    {
+      "id": 4,
+      "snack": "burger",
+      "name": "Meltz Burger",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+      "price": 24.5,
+      "image": "https://i.imgur.com/DViWfen.jpeg"
+    },
+    {
+      "id": 5,
+      "snack": "burger",
+      "name": "X-Bacon",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+      "price": 38.0,
+      "image": "https://i.imgur.com/0n5nRMU.jpeg"
+    }
+  ],
+  "combo": [
+    {
+      "id": 1,
+      "snack": "combos",
+     "name": "Mega Combo",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho...",
+     "price": 55.75,
+      "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/01/1c/2c/djalma-burger-combo-with.jpg"
+    },
+    {
+      "id": 2,
+      "snack": "combos",
+     "name": "Meltz Combo",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho...",
+     "price": 32.5,
+      "image": "https://cdn-production.yooga.com.br/16427202111181149518KISMihX4.webp"
+    },
+    {
+      "id": 3,
+      "snack": "combos",
+     "name": "Combo Salada",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+     "price": 40.5,
+      "image": "https://as2.ftcdn.net/v2/jpg/00/92/04/47/1000_F_92044757_K6rFzZN9mBNu7w8aJFNwEAhzkV0tefUo.jpg"
+    },
+    {
+      "id": 4,
+      "snack": "combos",
+     "name": "Combo's Kids",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+     "price": 28.5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxOthd4A3VK7aTUYZDMvxsvMQwZ4aC4S5P5A&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "snack": "combos",
+     "name": "King Senior Combo",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+     "price": 64.75,
+      "image": "https://classic.exame.com/wp-content/uploads/2017/01/king-senior-combo-brasil-cc3b3pia.jpg?quality=70&strip=info&w=1024"
+    }
+  ],
+  "vegetarian": [
+    {
+      "id": 1,
+      "snack": "vegetarian",
+     "name": "Natural Burguer",
+      "description": "Hambúguer Vegano, Alface, Tomate, Milho, Cheedar...",
+     "price": 35.5,
+      "image": "https://www.sabornamesa.com.br/media/k2/items/cache/acbf17dca076404b2078b0d4b135530d_XL.jpg"
+    },
+    {
+      "id": 2,
+      "snack": "vegetarian",
+     "name": "Meltz Vegetarian",
+      "description": "Hambúguer Vegano, Alface, Tomate, Milho, Cheedar...",
+     "price": 32.0,
+      "image": "https://truffle-assets.imgix.net/6ba7c292-hamburguer-vegetariano_l_thumb.jpg"
+    },
+    {
+      "id": 3,
+      "snack": "vegetarian",
+     "name": "V-Burger",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+     "price": 40.5,
+      "image": "https://media.gazetadopovo.com.br/2022/03/20125413/Hamburguer-de-beterraba-e-arroz-integral-jasmine-alimentos-960x540.jpg"
+    },
+    {
+      "id": 4,
+      "snack": "vegetarian",
+     "name": "X-Vegan",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+     "price": 42.5,
+      "image": "https://guiadacozinha.com.br/wp-content/uploads/2020/03/hamburguer-de-quinoa-vegetariano.jpg"
+    },
+    {
+      "id": 5,
+      "snack": "vegetarian",
+     "name": "V-Salad",
+      "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+     "price": 48.0,
+      "image": "https://img.cybercook.com.br/receitas/626/hamburguer-vegetariano-de-grao-de-bico-2.jpeg"
+    }
+  ],
+  "drinks": [
+    {
+      "id": 1,
+      "snack": "drinks",
+     "name": "Coca Cola 3L",
+      "description": "3 Litros",
+     "price": 9.5,
+      "image": "https://coopsp.vtexassets.com/arquivos/ids/225817-800-auto?v=637919593580570000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 2,
+      "snack": "drinks",
+     "name": "Coca Cola 2L",
+      "description": "2 Litros",
+     "price": 7.5,
+      "image": "https://www.setegotas.com.br/wp-content/uploads/2020/06/refr.coca_cola_2l.jpg"
+    },
+    {
+      "id": 3,
+      "snack": "drinks",
+     "name": "Fanta Laranja",
+      "description": "2 Litros",
+     "price": 6.0,
+      "image": "https://cdn.awsli.com.br/800x800/1847/1847175/produto/94341333/364c5bdfdd.jpg"
+    },
+    {
+      "id": 4,
+      "snack": "drinks",
+     "name": "Suco DellValle - Uva",
+      "description": "1 Litro",
+     "price": 5.5,
+      "image": "https://giassi.vtexassets.com/arquivos/ids/544540/Nectar-Uva-Del-Valle-Caixa-1l-.png?v=638053475274870000"
+    },
+    {
+      "id": 5,
+      "snack": "drinks",
+     "name": "Suco DellValle - Abacaxi",
+      "description": "1 Litro",
+     "price": 5.5,
+      "image": "https://giassi.vtexassets.com/arquivos/ids/516124/Nectar-Abacaxi-Del-Valle-Caixa-1l-.png?v=637995264113800000"
+    }
+  ],
+  "deserts": [
+    {
+      "id": 1,
+      "snack": "deserts",
+     "name": "Sunday",
+      "description": "500g",
+     "price": 14.8,
+      "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kpXGFtJB/200/200/original?country=br"
+    },
+    {
+      "id": 2,
+      "snack": "deserts",
+     "name": "Casquinha de Sorvete",
+      "description": "200g",
+     "price": 7.0,
+      "image": "https://static.fescopan.com.br/public/fescopan/imagens/produtos/casquinha-para-sorvete-biscoito-doce-300unid-marvi-2140.jpeg"
+    },
+    {
+      "id": 3,
+      "snack": "deserts",
+     "name": "Açai",
+      "description": "300g",
+     "price": 12.0,
+      "image": "https://riomarfortalezaonline.com.br/fortalezashopping/2020/12/Copo_300ml.jpg"
+    },
+    {
+      "id": 4,
+      "snack": "deserts",
+     "name": "Açai 1L",
+      "description": "1 Litro",
+     "price": 28.5,
+      "image": "https://www.abecbrasil.org.br/novo/wp-content/uploads/2018/05/acai-2709077_1920.jpg"
+    },
+    {
+      "id": 5,
+      "snack": "deserts",
+     "name": "MilkShake",
+      "description": "500ml",
+     "price": 18.0,
+      "image": "https://www.marvi.com.br/img/receitas/025627000000_24092019.jpg"
+    }
+  ]
+}

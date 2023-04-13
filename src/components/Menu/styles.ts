@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
 
 
 export const Container = styled.section`
@@ -53,7 +54,7 @@ export const Item = styled.li`
   flex-direction: column;
   align-items: center;
 `
-export const Link = styled.a`
+export const Link = styled(NavLink)`
   width: 100%;
   height: 100%;
   display: flex;

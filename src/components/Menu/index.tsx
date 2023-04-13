@@ -13,32 +13,32 @@ export default function Menu() {
         <Foods>
           <List>
             <Item>
-              <Link href='#' className='active'>
+              <Link to='/'>
                 <Image src={hamburguer} alt='Hambúguer' />
                 <Name>Hambúrgueres</Name>
               </Link>
             </Item>
             <Item>
-              <Link href='#'>
+              <Link to='combos'>
                 <Image src={combo} alt='Hambúguer' />
                 <Name>Combos</Name>
               </Link>
             </Item>
             <Item>
-              <Link href='#'>
+              <Link to='vegetarians'>
                 <Image src={vegano} alt='Hambúguer' />
                 <Name>Vegetariano</Name>
               </Link>
             </Item>
             <Item>
-              <Link href='#'>
-                <Image src={bebidas} alt='Hambúguer' />
+              <Link to='drinks'>
+                <Image src={bebidas} alt='Refrigerantes' />
                 <Name>Bebidas</Name>
               </Link>
             </Item>
             <Item>
-              <Link href='#'>
-                <Image src={sobremesa} alt='Hambúguer' />
+              <Link to='deserts'>
+                <Image src={sobremesa} alt='Sobremesas' />
                 <Name>Sobremesas</Name>
               </Link>
             </Item>
