@@ -1,9 +1,13 @@
-import { Container, MenuBar, Section, Section2, Logo, NavBar, Menu, Link, Wpp, WppIcon, Tel, Text, Text2, Buttons, User, Cart, Requests } from './styles'
+import { Container, MenuBar, Section, Section2, Logo, NavBar, Menu, LinkMenu, Wpp, WppIcon, Tel, Text, Text2, Buttons, User, Cart, Requests } from './styles'
 import { MdLocalPhone } from 'react-icons/md'
 import { FaUserAlt, FaShoppingCart } from 'react-icons/fa'
 import logo from '../../assets/image/logo.png'
+import { useCart } from '../../hooks/useCart'
 
 export default function Header() {
+
+  const {cart} = useCart()
+
   return (
     <Container>
       <MenuBar>
@@ -11,16 +15,16 @@ export default function Header() {
           <Logo src={logo} />
           <NavBar>
             <Menu>
-              <Link href='#' className='selected'>Home</Link>
+              <LinkMenu href='#' className='selected'>Home</LinkMenu>
             </Menu>
             <Menu>
-              <Link href='#menu'>Menu</Link>
+              <LinkMenu href='#menu'>Menu</LinkMenu>
             </Menu>
             <Menu>
-              <Link href='#pages'>Páginas</Link>
+              <LinkMenu href='#pages'>Páginas</LinkMenu>
             </Menu>
             <Menu>
-              <Link href='#shop'>Comprar</Link>
+              <LinkMenu href='#shop'>Comprar</LinkMenu>
             </Menu>
           </NavBar>
         </Section>
@@ -38,9 +42,9 @@ export default function Header() {
             <User>
               <FaUserAlt />
             </User>
-            <Cart>
+            <Cart to={'cart'}>
               <FaShoppingCart />
-              <Requests>2</Requests>
+              {cart.length ? <Requests>{`${cart.length}`.padStart(2, '0')}</Requests> : null}
             </Cart>
           </Buttons>
         </Section2>

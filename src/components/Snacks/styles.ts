@@ -28,6 +28,7 @@ export const Item = styled.div`
   border-radius: 4px;
   background-color: #dbd3c890;
   transition: all .5s;
+  position: relative;
 `
 
 export const Image = styled.img`
@@ -95,4 +96,23 @@ export const AddCart = styled.button`
     height: 20px;
     color: black;
   }
+`
+
+export const Qntd = styled.span`
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #b33012;
+  color: #fefefe;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  box-shadow: 0 0 8px #00000050;
 `

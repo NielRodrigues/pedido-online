@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.header`
   display: flex;
@@ -66,7 +67,7 @@ export const Menu = styled.li`
   color: '#FEFEFE';
 `
 
-export const Link = styled.a`
+export const LinkMenu = styled.a`
   font-size: 16px;
   color: #F3F3F3;
   transition: color .5s;
@@ -153,7 +154,7 @@ export const User = styled.a`
   &:hover svg {opacity: 0.7;}
 `
 
-export const Cart = styled.a`
+export const Cart = styled(Link)`
   text-decoration: none;
   color: #FEFEFE;
   transition: all .5s;
@@ -172,13 +173,16 @@ export const Cart = styled.a`
 export const Requests = styled.div`
   width: 12px;
   height: 12px;
-  border-radius: 6px;
+  padding: 1px;
+  border-radius: 50%;
   background-color: #fd9e08;
   color: #5e1306;
   font-size: 10px;
   font-weight: 600;
   text-align: center;
   position: absolute;
-  top: -4px;
-  right: -4px;
+  top: -6px;
+  right: -6px;
+  text-align: center;
+
 `;

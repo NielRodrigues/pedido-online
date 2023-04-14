@@ -6,6 +6,7 @@ import { Combos } from './pages/Main/Combos'
 import { Vegetarians } from './pages/Main/Vegeterians'
 import { Drinks } from './pages/Main/Drinks'
 import { Deserts } from './pages/Main/Deserts'
+import MyCart from './pages/MyCart'
 
 export function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ export function AppRoutes() {
         <Route path='/drinks' element={<Drinks />} />
         <Route path='/deserts' element={<Deserts />} />
       </Route>
+      <Route path='cart' element={<MyCart />} />
     </Routes>
   )
 }
