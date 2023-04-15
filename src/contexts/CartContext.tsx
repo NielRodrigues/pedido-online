@@ -15,7 +15,6 @@ interface CartContextProps{
   snackCartIncrement: (snack: Snack) => void
   snackCartDescrement: (snack: Snack) => void
   confirmOrder: () => void
-  //updateCart: ({id, snack, newQuantity} :UpdateCartProps) => void
 }
 
 interface CartProviderProps{
