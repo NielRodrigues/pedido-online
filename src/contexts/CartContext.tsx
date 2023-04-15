@@ -8,17 +8,6 @@ interface Snack extends SnackData{
   subtotal: number
 }
 
-interface RemoveSnackFromCart{
-  id: number
-  snack: string
-}
-
-interface UpdateCartProps{
-  id: number
-  snack: string
-  newQuantity: number
-}
-
 interface CartContextProps{
   cart: Snack[]
   addSnackIntoCart: (snack: SnackData) => void
