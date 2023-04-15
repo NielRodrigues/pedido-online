@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.main`
+export const Container = styled.section`
   width: 100%;
   height: auto;
   padding-bottom: 48px;
@@ -10,6 +10,7 @@ export const Container = styled.main`
   border-radius: 8px;
   background-color: #0E0F11;
 
+  tr td{text-align: center;}
 
   table{
     width: 92%;
@@ -46,7 +47,28 @@ export const Container = styled.main`
         font-size: 24px;
       }
 
-      // quantidade
+      div{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: center;
+
+        button{
+          background: none;
+          border: none;
+          outline: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+          svg{
+            width: 18px;
+            height: 18px;
+            fill: #fd9e08;
+          }
+        }
+      }
 
       h5{
         font-weight: 700;
@@ -69,9 +91,10 @@ export const Container = styled.main`
 
       &:nth-child(2){
         padding-left: 32px;
+        text-align: left;
       }
       &:nth-child(3), &:nth-child(4){
-        padding-left: 176px;
+        padding-left: 16px;
       }
       &:last-child{
         width: 24px;
@@ -81,16 +104,23 @@ export const Container = styled.main`
           background:none;
           border: none;
           width: 100%;
-
           display: flex;
           align-items: center;
           justify-content: flex-end;
+          cursor: pointer;
 
           svg{
             fill: #fd9e08;
             width: 24px;
             height: 24px;
+            transition: all .5s;
           }
+
+          &:hover svg{
+            fill: #fd9e0880;
+          }
+
+
         }
       }
 

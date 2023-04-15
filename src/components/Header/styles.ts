@@ -33,6 +33,9 @@ export const Section = styled.section`
   @media (max-width: 768px){
     width: 72%;
   }
+  @media (max-width: 600px){
+    justify-content: flex-start;
+  }
 `
 
 export const Section2 = styled.section`
@@ -46,6 +49,7 @@ export const Section2 = styled.section`
   @media (max-width: 768px){
     width: 20%;
   }
+
 `
 
 export const Logo = styled.img`
@@ -61,6 +65,11 @@ export const NavBar = styled.ul`
   align-items: center;
   justify-content: space-around;
   list-style: none;
+
+  @media (max-width: 600px){
+    display: none;
+  }
+
 `
 
 export const Menu = styled.li`

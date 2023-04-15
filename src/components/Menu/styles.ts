@@ -53,6 +53,12 @@ export const Item = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 4px;
+
+  @media (max-width: 600px){
+    width: 96px;
+    height: 128px;
+  }
 `
 export const Link = styled(NavLink)`
   width: 100%;
@@ -73,6 +79,11 @@ export const Image = styled.img`
   width: 128px;
   height: 128px;
   border-radius: 64px;
+
+  @media (max-width: 600px){
+    width: 96px;
+    height: 96px;
+  }
 `
 export const Name = styled.h3`
   font-size: 20px;
@@ -81,4 +92,8 @@ export const Name = styled.h3`
   font-family: 'Rowdies', cursive;
   margin-bottom: 8px;
   text-align: center;
+
+  @media (max-width: 600px){
+    font-size: 16px;
+  }
 `
