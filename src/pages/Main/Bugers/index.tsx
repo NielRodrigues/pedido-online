@@ -8,8 +8,8 @@ export function Burgers(){
 
   return (
     <>
-      <Head title='Hambúgueres' description="Nosso melhores Hambúrgueres"/>
-      <SnackTitle title='Hambúgueres' />
+      <Head title='Hambúrgueres' description="Nosso melhores Hambúrgueres"/>
+      <SnackTitle title='Hambúrgueres' />
       <Snacks snacks={burgers} />
     </>
   )
