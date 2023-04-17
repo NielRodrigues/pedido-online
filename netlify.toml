@@ -7,3 +7,10 @@ publish = "./build/"
 [build.environment]
 
 REACT_APP_API_BASE_URL = "https://cr-pedidoonline-1504.netlify.app/api"
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "Origin, X-Requested-With, Content-Type, Accept"
+    Access-Control-Allow-Methods = "GET, PUT, POST, DELETE, OPTIONS"
