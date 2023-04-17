@@ -1,7 +1,7 @@
 [build]
 
 base = "."
-command = "npm run build && npm run json-server"
+command = "npm run build"
 publish = "./build/"
 
 [build.environment]
