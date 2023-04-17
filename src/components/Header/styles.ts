@@ -31,7 +31,7 @@ export const Section = styled.section`
   justify-content: space-around;
 
   @media (max-width: 768px){
-    width: 72%;
+    width: 64%;
   }
   @media (max-width: 600px){
     justify-content: flex-start;
@@ -47,7 +47,10 @@ export const Section2 = styled.section`
   justify-content: space-around;
 
   @media (max-width: 768px){
-    width: 20%;
+    width: 32%;
+  }
+  @media (max-width: 425px){
+    justify-content: center;
   }
 
 `
@@ -55,6 +58,10 @@ export const Section2 = styled.section`
 export const Logo = styled.img`
   height: 64px;
   width: auto;
+  @media (max-width: 600px){
+    margin-left: 8px;
+  }
+
 `
 
 export const NavBar = styled.ul`
@@ -144,6 +151,10 @@ export const Buttons = styled.div`
   justify-content: space-between;
   height: 100%;
   width: 72px;
+
+  @media (max-width: 600px){
+    margin-right: 8px;
+  }
 `
 
 export const User = styled.a`
