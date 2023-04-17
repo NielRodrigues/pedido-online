@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "snack": "deserts",
+    "name": "Sunday",
+    "description": "500g",
+    "price": 14.8,
+    "image": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kpXGFtJB/200/200/original?country=br"
+  },
+  {
+    "id": 2,
+    "snack": "deserts",
+    "name": "Casquinha de Sorvete",
+    "description": "200g",
+    "price": 7.0,
+    "image": "https://static.fescopan.com.br/public/fescopan/imagens/produtos/casquinha-para-sorvete-biscoito-doce-300unid-marvi-2140.jpeg"
+  },
+  {
+    "id": 3,
+    "snack": "deserts",
+    "name": "Açai",
+    "description": "300g",
+    "price": 12.0,
+    "image": "https://riomarfortalezaonline.com.br/fortalezashopping/2020/12/Copo_300ml.jpg"
+  },
+  {
+    "id": 4,
+    "snack": "deserts",
+    "name": "Açai 1L",
+    "description": "1 Litro",
+    "price": 28.5,
+    "image": "https://www.abecbrasil.org.br/novo/wp-content/uploads/2018/05/acai-2709077_1920.jpg"
+  },
+  {
+    "id": 5,
+    "snack": "deserts",
+    "name": "MilkShake",
+    "description": "500ml",
+    "price": 18.0,
+    "image": "https://www.marvi.com.br/img/receitas/025627000000_24092019.jpg"
+  }
+]

@@ -23,9 +23,6 @@ export default function Header() {
             <Menu>
               <LinkMenu href='#pages'>Páginas</LinkMenu>
             </Menu>
-            <Menu>
-              <LinkMenu href='#shop'>Comprar</LinkMenu>
-            </Menu>
           </NavBar>
         </Section>
         <Section2>

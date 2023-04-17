@@ -6,7 +6,7 @@ import { Title } from "./styles"
 export function SnackTitle({title}: TitleProps){
 
   return(
-    <Title>{title}</Title>
+    <Title id='pages'>{title}</Title>
   )
 
 }

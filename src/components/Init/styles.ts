@@ -41,10 +41,6 @@ export const Content = styled.div`
   top: 0;
   justify-content: center;
   margin-top: 48px;
-
-  @media (max-width: 1200px){
-    margin-left: 48px;
-  }
 `
 
 export const Title = styled.h1`
@@ -59,6 +55,10 @@ export const Title = styled.h1`
   @media (max-width: 768px) { font-size: 56px; }
   @media (max-width: 635px) { font-size: 48px; }
   @media (max-width: 530px) { font-size: 40px; }
+
+  @media (max-width: 1200px){
+    margin-left: 48px;
+  }
 `
 
 export const Text = styled.h4`
@@ -68,6 +68,10 @@ export const Text = styled.h4`
   margin-top: 32px;
 
   span{font-weight: 700; color:#FEFEFE; font-size: 18px; opacity: 1;}
+
+  @media (max-width: 1200px){
+    margin-left: 48px;
+  }
 `
 
 export const Subtitle = styled.h2`
@@ -77,6 +81,10 @@ export const Subtitle = styled.h2`
   margin-top: 8px;
 
   span{font-weight: 700; color: #FEFEFE; font-size:28px; background-color: #942007;}
+
+  @media (max-width: 1200px){
+    margin-left: 48px;
+  }
 `
 export const Button = styled.a`
   width: 192px;
@@ -93,4 +101,8 @@ export const Button = styled.a`
   justify-content: center;
   cursor: pointer;
   text-decoration: none;
+
+  @media (max-width: 1200px){
+    margin-left: 48px;
+  }
 `

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "snack": "vegetarian",
+    "name": "Natural Burguer",
+    "description": "Hambúguer Vegano, Alface, Tomate, Milho, Cheedar...",
+    "price": 35.5,
+    "image": "https://www.sabornamesa.com.br/media/k2/items/cache/acbf17dca076404b2078b0d4b135530d_XL.jpg"
+  },
+  {
+    "id": 2,
+    "snack": "vegetarian",
+    "name": "Meltz Vegetarian",
+    "description": "Hambúguer Vegano, Alface, Tomate, Milho, Cheedar...",
+    "price": 32.0,
+    "image": "https://truffle-assets.imgix.net/6ba7c292-hamburguer-vegetariano_l_thumb.jpg"
+  },
+  {
+    "id": 3,
+    "snack": "vegetarian",
+    "name": "V-Burger",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 40.5,
+    "image": "https://media.gazetadopovo.com.br/2022/03/20125413/Hamburguer-de-beterraba-e-arroz-integral-jasmine-alimentos-960x540.jpg"
+  },
+  {
+    "id": 4,
+    "snack": "vegetarian",
+    "name": "X-Vegan",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 42.5,
+    "image": "https://guiadacozinha.com.br/wp-content/uploads/2020/03/hamburguer-de-quinoa-vegetariano.jpg"
+  },
+  {
+    "id": 5,
+    "snack": "vegetarian",
+    "name": "V-Salad",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 48.0,
+    "image": "https://img.cybercook.com.br/receitas/626/hamburguer-vegetariano-de-grao-de-bico-2.jpeg"
+  }
+]

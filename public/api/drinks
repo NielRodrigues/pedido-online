@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "snack": "drinks",
+    "name": "Coca Cola 3L",
+    "description": "3 Litros",
+    "price": 9.5,
+    "image": "https://coopsp.vtexassets.com/arquivos/ids/225817-800-auto?v=637919593580570000&width=800&height=auto&aspect=true"
+  },
+  {
+    "id": 2,
+    "snack": "drinks",
+    "name": "Coca Cola 2L",
+    "description": "2 Litros",
+    "price": 7.5,
+    "image": "https://www.setegotas.com.br/wp-content/uploads/2020/06/refr.coca_cola_2l.jpg"
+  },
+  {
+    "id": 3,
+    "snack": "drinks",
+    "name": "Fanta Laranja",
+    "description": "2 Litros",
+    "price": 6.0,
+    "image": "https://cdn.awsli.com.br/800x800/1847/1847175/produto/94341333/364c5bdfdd.jpg"
+  },
+  {
+    "id": 4,
+    "snack": "drinks",
+    "name": "Suco DellValle - Uva",
+    "description": "1 Litro",
+    "price": 5.5,
+    "image": "https://giassi.vtexassets.com/arquivos/ids/544540/Nectar-Uva-Del-Valle-Caixa-1l-.png?v=638053475274870000"
+  },
+  {
+    "id": 5,
+    "snack": "drinks",
+    "name": "Suco DellValle - Abacaxi",
+    "description": "1 Litro",
+    "price": 5.5,
+    "image": "https://giassi.vtexassets.com/arquivos/ids/516124/Nectar-Abacaxi-Del-Valle-Caixa-1l-.png?v=637995264113800000"
+  }
+]

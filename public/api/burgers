@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "snack": "burger",
+    "name": "Mega",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 35.5,
+    "image": "https://i.imgur.com/upjIUnG.jpg"
+  },
+  {
+    "id": 2,
+    "snack": "burger",
+    "name": "X-Salada",
+    "description": "Alface, Tomate, Milho... ",
+    "price": 28.5,
+    "image": "https://i.imgur.com/IgknRkA.jpeg"
+  },
+  {
+    "id": 3,
+    "snack": "burger",
+    "name": "X-Tudo",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 40.5,
+    "image": "https://i.imgur.com/YZBB5R0.jpeg"
+  },
+  {
+    "id": 4,
+    "snack": "burger",
+    "name": "Meltz Burger",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 24.5,
+    "image": "https://i.imgur.com/DViWfen.jpeg"
+  },
+  {
+    "id": 5,
+    "snack": "burger",
+    "name": "X-Bacon",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 38.0,
+    "image": "https://i.imgur.com/0n5nRMU.jpeg"
+  }
+]

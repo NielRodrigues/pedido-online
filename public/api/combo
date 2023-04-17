@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "snack": "combos",
+    "name": "Mega Combo",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho...",
+    "price": 55.75,
+    "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/01/1c/2c/djalma-burger-combo-with.jpg"
+  },
+  {
+    "id": 2,
+    "snack": "combos",
+    "name": "Meltz Combo",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho...",
+    "price": 32.5,
+    "image": "https://cdn-production.yooga.com.br/16427202111181149518KISMihX4.webp"
+  },
+  {
+    "id": 3,
+    "snack": "combos",
+    "name": "Combo Salada",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 40.5,
+    "image": "https://as2.ftcdn.net/v2/jpg/00/92/04/47/1000_F_92044757_K6rFzZN9mBNu7w8aJFNwEAhzkV0tefUo.jpg"
+  },
+  {
+    "id": 4,
+    "snack": "combos",
+    "name": "Combo's Kids",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 28.5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxOthd4A3VK7aTUYZDMvxsvMQwZ4aC4S5P5A&usqp=CAU"
+  },
+  {
+    "id": 5,
+    "snack": "combos",
+    "name": "King Senior Combo",
+    "description": "Hambúguer, Bacon, Alface, Tomate, Milho... ",
+    "price": 64.75,
+    "image": "https://classic.exame.com/wp-content/uploads/2017/01/king-senior-combo-brasil-cc3b3pia.jpg?quality=70&strip=info&w=1024"
+  }
+]
