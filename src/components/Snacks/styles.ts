@@ -15,7 +15,7 @@ export const Container = styled.section`
   gap: 16px;
 
   @media  (max-width: 673px) {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, minmax(47.5%, 47.5%));
   }
 `
 
@@ -44,7 +44,7 @@ export const ItemText = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 16px;
-  width: 192px;
+  width: 100%;
   height: 64px;
   margin-bottom: 16px;
 `

@@ -57,7 +57,7 @@ export const Title = styled.h1`
   @media (max-width: 530px) { font-size: 40px; }
 
   @media (max-width: 1200px){
-    margin-left: 48px;
+    margin-left: 24px;
   }
 `
 
@@ -70,7 +70,7 @@ export const Text = styled.h4`
   span{font-weight: 700; color:#FEFEFE; font-size: 18px; opacity: 1;}
 
   @media (max-width: 1200px){
-    margin-left: 48px;
+    margin-left: 24px;
   }
 `
 
@@ -83,7 +83,7 @@ export const Subtitle = styled.h2`
   span{font-weight: 700; color: #FEFEFE; font-size:28px; background-color: #942007;}
 
   @media (max-width: 1200px){
-    margin-left: 48px;
+    margin-left: 24px;
   }
 `
 export const Button = styled.a`
@@ -103,6 +103,6 @@ export const Button = styled.a`
   text-decoration: none;
 
   @media (max-width: 1200px){
-    margin-left: 48px;
+    margin-left: 24px;
   }
 `
