@@ -10,6 +10,16 @@ export const Container = styled.header`
   background-color: #B33012;
   justify-content: center;
   padding-top: 16px;
+
+
+  @media (max-width: 600px){
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    padding-top: 0;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+  }
 `
 
 export const MenuBar = styled.div`
@@ -207,3 +217,17 @@ export const Requests = styled.div`
   /*margin-right: 8px;*/
 
 `;
+export const BackgroundTop = styled.div`
+  width: 100%;
+  height: 64px;
+  z-index: -999;
+  background-color: #B33012;
+  position: absolute;
+  top: 0;
+  display: none;
+
+  @media (max-width: 600px) {
+    display: block;
+  }
+
+`

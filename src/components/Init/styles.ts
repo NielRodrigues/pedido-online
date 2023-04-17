@@ -8,8 +8,8 @@ export const Container = styled.section`
   width: 100%;
   height: auto;
   position: relative;
-
   picture{width: 100%;}
+
 `
 
 export const Background = styled.img`
@@ -59,6 +59,13 @@ export const Title = styled.h1`
   @media (max-width: 1200px){
     margin-left: 24px;
   }
+  @media (max-width: 460px){
+    margin-left: 12px;
+    font-size: 36px;
+  }
+  @media (max-width: 400px){
+    font-size: 32px;
+  }
 `
 
 export const Text = styled.h4`
@@ -72,6 +79,13 @@ export const Text = styled.h4`
   @media (max-width: 1200px){
     margin-left: 24px;
   }
+  @media (max-width: 460px){
+    margin-left: 12px;
+    font-size: 14px;
+  }
+  @media (max-width: 400px){
+    margin-top: 16px;
+  }
 `
 
 export const Subtitle = styled.h2`
@@ -84,6 +98,13 @@ export const Subtitle = styled.h2`
 
   @media (max-width: 1200px){
     margin-left: 24px;
+  }
+  @media (max-width: 460px){
+    margin-left: 12px;
+    font-size: 20px;
+    span{
+      font-size: 24px;
+    }
   }
 `
 export const Button = styled.a`
@@ -105,4 +126,19 @@ export const Button = styled.a`
   @media (max-width: 1200px){
     margin-left: 24px;
   }
+  @media (max-width: 460px){
+    margin-left: 12px;
+    margin-top: 24px;
+  }
+`
+export const BackgroundTop = styled.div`
+  width: 100%;
+  height: 48px;
+  background-color: #B33012;
+  display: none;
+
+  @media (max-width: 600px) {
+    display: block;
+  }
+
 `

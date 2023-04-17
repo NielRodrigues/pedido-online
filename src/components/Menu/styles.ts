@@ -9,6 +9,10 @@ export const Container = styled.section`
   width: 100%;
   height: auto;
   position: relative;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 `
 
 export const Content = styled.div`
