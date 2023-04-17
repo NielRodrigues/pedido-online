@@ -204,5 +204,6 @@ export const Requests = styled.div`
   top: -6px;
   right: -6px;
   text-align: center;
+  margin-right: 8px;
 
 `;
