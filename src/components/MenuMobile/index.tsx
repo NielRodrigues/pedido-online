@@ -1,4 +1,4 @@
-import { Container, Link, Icon } from './styles'
+import { Container, Link } from './styles'
 import {ReactComponent as Burger}  from '../../assets/image/burger.svg'
 import {ReactComponent as Combo}  from '../../assets/image/combo.svg'
 import {ReactComponent as Vegetarian}  from '../../assets/image/vegetarian.svg'

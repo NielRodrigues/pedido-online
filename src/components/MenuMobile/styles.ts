@@ -60,12 +60,3 @@ export const Link = styled(NavLink)`
     }
   }
 `
-
-export const Icon = styled.img`
-  width: 48px;
-  height: 48px;
-  padding-bottom: 8px;
-  border-bottom: 5px solid transparent;
-  transition: all 2s;
-  fill: #FEFEFE;
-`
