@@ -12,7 +12,6 @@ export const Container = styled.nav`
   background-color: #B33012;
   position: fixed;
   bottom: 0;
-  padding-bottom: 8px;
   padding-top: 8px;
   display: none;
 
@@ -29,12 +28,44 @@ export const Link = styled(NavLink)`
   justify-content: center;
   text-decoration: none;
 
-  &.active{
+  svg{
+    width: 48px;
+    height: 48px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
+    transition: all .2s;
+    fill: #FEFEFE;
+  }
 
+  &.active{
+    img{
+      border-bottom: 5px solid #fd9e08;
+    }
+    svg.burger, svg.combo{
+      fill: #fd9e08;
+      border-bottom: 2px solid #fd9e08;
+      path{
+        stroke: #fd9e08;
+      }
+      line{
+        stroke: #fd9e08;
+      }
+    }
+    svg.drink, svg.vegetarian, svg.desert{
+      fill: #fd9e08;
+      border-bottom: 2px solid #fd9e08;
+      path{
+        fill: #fd9e08;
+      }
+    }
   }
 `
 
 export const Icon = styled.img`
   width: 48px;
-  height: auto;
+  height: 48px;
+  padding-bottom: 8px;
+  border-bottom: 5px solid transparent;
+  transition: all 2s;
+  fill: #FEFEFE;
 `
